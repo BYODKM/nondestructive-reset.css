@@ -28,7 +28,19 @@ This is what use to be the reset css looks like:
       vertical-align: baseline;
     }
 
-This is a totally destructive method.
+Even worse:
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100%;
+      vertical-align: baseline;
+    }
+
+These are totally destructive methods. And the result is terrible.
 
 ### How about this way?
 
