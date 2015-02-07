@@ -1,6 +1,6 @@
 {
   "name": "nondestructive-reset.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Non-destructive Reset CSS",
   "devDependencies": {
     "grunt": "~0.4.5",
