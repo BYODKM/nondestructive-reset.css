@@ -38,6 +38,9 @@
 .code {
   white-space: nowrap;
 }
+pre .code {
+  white-space: pre;
+}
 .fieldset {
   margin: 0;
   padding: 0;
@@ -75,9 +78,6 @@
 }
 .pre {
   word-wrap: normal;
-}
-.pre .code {
-  white-space: pre;
 }
 .textarea:focus {
   outline: none;
