@@ -75,7 +75,7 @@ You can opt-in or out of a per-element basis.
 I suggest to use Jade mixins.
 
     mixin body
-        body.body
+        body.body&attributes(attributes)
             block
 
 You can call it like this:
@@ -93,6 +93,10 @@ You can call it like this:
     $ npm install
     $ grunt build
     $ grunt serve
+
+## Recommend
+
+Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should normalize first.
 
 ## License
 
