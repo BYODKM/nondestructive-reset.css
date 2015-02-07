@@ -9,14 +9,14 @@ module.exports = (grunt) ->
                 options:
                     compress: false
                 files:
-                    'dist/nondestructive-reset.css': 'src/nondestructive-reset.styl'
+                    'nondestructive-reset.css': 'src/nondestructive-reset.styl'
 
         jade:
             compile:
                 options:
                     pretty: true
                 files:
-                    'test/index.html': 'src/test.jade'
+                    'test/index.html': 'test/index.jade'
 
         connect:
             server:
@@ -30,7 +30,7 @@ module.exports = (grunt) ->
                 files: ['src/*.styl']
                 tasks: ['stylus']
             jade:
-                files: ['src/*.jade']
+                files: ['test/*.jade']
                 tasks: ['jade']
 
     grunt.registerTask 'build', ['stylus', 'jade']

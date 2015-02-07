@@ -1,6 +1,6 @@
 {
   "name": "nondestructive-reset.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Non-destructive Reset CSS",
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -15,8 +15,5 @@
     "url": "https://github.com/BYODKM/nondestructive-reset.css"
   },
   "author": "Tomohiro Kasuga",
-  "license": "MIT License",
-  "bugs": {
-    "url": "https://github.com/BYODKM/nondestructive-reset.css/issues"
-  }
+  "license": "MIT"
 }
