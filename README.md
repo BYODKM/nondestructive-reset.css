@@ -94,7 +94,7 @@ You can call it like this:
     $ grunt build
     $ grunt serve
 
-## Recommend
+## Recommended
 
 Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should normalize first.
 
