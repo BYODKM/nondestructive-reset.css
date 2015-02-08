@@ -48,11 +48,9 @@ These are totally destructive methods. And the result is terrible.
 	  height: 100%;
 	  font-size: 10px;
 	}
-  .body {
-	  margin: 0;
+	.body {
 	  min-height: 100%;
 	  min-width: 320px;
-	  font-family: sans-serif;
 	  font-size: 1.6rem;
 	  line-height: 1.25;
 	  word-wrap: break-word;
