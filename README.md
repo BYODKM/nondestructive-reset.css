@@ -72,7 +72,7 @@ You can opt-in or out of a per-element basis.
 
 ## Too hassle?
 
-I suggest to use Jade mixins.
+I'd suggest to use the [Jade mixin](helper/nondestructive-reset.jade).
 
 	mixin body
 	  body.body&attributes(attributes)
@@ -82,7 +82,7 @@ You can call it like this:
 
 	doctype
 	+html
-	  +head
+	  head
 	    title here
 	  +body
 	    +h1 here
