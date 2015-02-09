@@ -1,6 +1,6 @@
 # Non-destructive Reset CSS
 
-Code here: [nondestructive-reset.css](nondestructive-reset.css)
+Code: [nondestructive-reset.css](nondestructive-reset.css)
 
 ## What's new?
 
