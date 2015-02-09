@@ -28,7 +28,7 @@
 .button
   padding 0
   background none
-  border none
+  border 1px solid
   -webkit-appearance none
   -webkit-font-smoothing antialiased
 
@@ -81,8 +81,7 @@
 .input
   box-sizing border-box
   font-family sans-serif
-  border-width 1px
-  border-style solid
+  border 1px solid
   -webkit-appearance none
   -webkit-font-smoothing antialiased
 
@@ -108,6 +107,17 @@
   margin 0
   word-wrap normal
 
+.select
+  padding 0
+  cursor pointer
+  border 1px solid
+  border-radius 0
+  -webkit-appearance none
+  -webkit-font-smoothing antialiased
+
+  &:focus
+    outline none
+
 .table
   margin 0
   width 100%
@@ -122,6 +132,7 @@
   box-sizing border-box
   margin 0
   width 100%
+  border 1px solid
   -webkit-appearance none
   -webkit-font-smoothing antialiased
 

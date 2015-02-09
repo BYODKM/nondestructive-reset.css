@@ -26,9 +26,8 @@
 }
 .button {
   padding: 0;
-  cursor: pointer;
   background: none;
-  border: none;
+  border: 1px solid;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -66,7 +65,6 @@ pre .code {
 }
 .hr {
   margin: 0;
-  height: 0;
   overflow: hidden;
   border: none;
   border-top: 1px solid;
@@ -82,8 +80,7 @@ pre .code {
 .input {
   box-sizing: border-box;
   font-family: sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -109,6 +106,17 @@ pre .code {
   margin: 0;
   word-wrap: normal;
 }
+.select {
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+.select:focus {
+  outline: none;
+}
 .table {
   margin: 0;
   width: 100%;
@@ -123,6 +131,7 @@ pre .code {
   box-sizing: border-box;
   margin: 0;
   width: 100%;
+  border: 1px solid;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
