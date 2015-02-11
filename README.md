@@ -36,7 +36,7 @@ Even worse:
 	  border: 0;
 	  font-style: normal;
 	  font-weight: normal;
-	  font-size: 100%;
+	  font-size: 16px;
 	  vertical-align: baseline;
 	}
 
