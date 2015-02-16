@@ -15,6 +15,7 @@ module.exports = (grunt) ->
       compile:
         options:
           pretty: false
+          basedir: __dirname
         files:
           'test/index.html': 'test/index.jade'
 
@@ -22,6 +23,9 @@ module.exports = (grunt) ->
       server:
         options:
           port: '3000'
+          base: './'
+          open:
+            target: 'http://localhost:<%= connect.server.options.port %>/test/'
 
     watch:
       options:
