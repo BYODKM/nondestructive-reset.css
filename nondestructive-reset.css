@@ -25,9 +25,11 @@
   margin: 0;
 }
 .button {
+  color: inherit;
   box-sizing: border-box;
   padding: 0;
   border: 1px solid;
+  border-radius: 4px;
   background: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +51,7 @@ pre .code {
 .fieldset {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 .figure {
   margin: 0;
@@ -67,16 +69,16 @@ pre .code {
 .hr {
   margin: 0;
   overflow: hidden;
-  border: none;
+  border: 0;
   border-top: 1px solid;
 }
 .iframe {
   display: block;
   overflow: hidden;
-  border: none;
+  border: 0;
 }
 .img {
-  vertical-align: top;
+  vertical-align: bottom;
 }
 .input {
   box-sizing: border-box;
@@ -111,7 +113,7 @@ pre .code {
   box-sizing: border-box;
   padding: 0;
   border: 1px solid;
-  border-radius: 0;
+  border-radius: 4px;
   cursor: pointer;
   background: none;
   -webkit-appearance: none;
@@ -140,9 +142,9 @@ pre .code {
 .textarea {
   display: block;
   box-sizing: border-box;
-  margin: 0;
   width: 100%;
   border: 1px solid;
+  resize: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
