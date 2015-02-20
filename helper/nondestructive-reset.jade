@@ -43,14 +43,14 @@ mixin dl
   dl.dl&attributes(attributes)
     block
 
-mixin dt
-
-  dt.dt&attributes(attributes)
-    block
-
 mixin dd
 
   dd.dd&attributes(attributes)
+    block
+
+mixin dt
+
+  dt.dt&attributes(attributes)
     block
 
 mixin fieldset
@@ -96,7 +96,7 @@ mixin h6
 mixin hr
 
   hr.hr&attributes(attributes)
-  //block
+  //- block
 
 mixin iframe
 
@@ -106,12 +106,12 @@ mixin iframe
 mixin img
 
   img.img&attributes(attributes)
-  //block
+  //- block
 
 mixin input
 
   input.input&attributes(attributes)
-  //block
+  //- block
 
 mixin label
 
