@@ -1,6 +1,6 @@
 {
   "name": "nondestructive-reset.css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Non-destructive Reset CSS",
   "files": [
     "nondestructive-reset.css"
