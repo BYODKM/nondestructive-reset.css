@@ -16,6 +16,9 @@
 .a {
   color: #00f;
   text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .address {
   margin: 0;
@@ -33,6 +36,9 @@
   background: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .button:hover,
 .button:focus,
@@ -98,6 +104,9 @@ pre .code {
 }
 .label {
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .li {
   display: block;
