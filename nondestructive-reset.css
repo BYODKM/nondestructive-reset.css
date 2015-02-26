@@ -86,9 +86,9 @@ pre .code {
   border-top: 1px solid;
 }
 .iframe {
-  display: block;
   overflow: hidden;
   border: 0;
+  vertical-align: bottom;
 }
 .img {
   vertical-align: bottom;
