@@ -30,12 +30,9 @@ module.exports = (grunt) ->
     watch:
       options:
         livereload: true
-      stylus:
-        files: ['src/*.styl']
-        tasks: ['stylus']
-      jade:
-        files: ['test/*.jade']
-        tasks: ['jade']
+      default:
+        files: ['src/*.styl', 'test/*.jade']
+        tasks: ['build']
 
   grunt.registerTask 'build', ['stylus', 'jade']
   grunt.registerTask 'serve', ['connect', 'watch']
