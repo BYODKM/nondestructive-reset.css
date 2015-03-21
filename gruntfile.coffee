@@ -34,5 +34,6 @@ module.exports = (grunt)->
         files: ['src/*.styl', 'test/*.jade']
         tasks: ['build']
 
+  grunt.registerTask 'default', ['build', 'serve']
   grunt.registerTask 'build', ['stylus', 'jade']
   grunt.registerTask 'serve', ['connect', 'watch']
