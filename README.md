@@ -97,6 +97,12 @@ doctype
     +h1 here
 ```
 
+## Install
+
+```
+$ bower install --save nondestructive-reset.css
+```
+
 ## Test your own
 
 ```
@@ -106,7 +112,7 @@ $ npm install
 $ grunt
 ```
 
-## Recommended
+## Recommendation
 
 Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should normalize first.
 
