@@ -4,9 +4,11 @@
   "main": "nondestructive-reset.css",
   "author": "Tomohiro Kasuga",
   "ignore": [
-    "gruntfile.coffee",
     "node_modules",
-    "package.json",
-    "test"
+    "test",
+    ".editorconfig",
+    ".gitignore",
+    "gruntfile.coffee",
+    "package.json"
   ]
 }
