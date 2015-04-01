@@ -1,11 +1,15 @@
-/*! nondestructive-reset.css v1.1.1 | MIT License | github.com/BYODKM */
+/*! nondestructive-reset.css v1.1.2 | MIT License | github.com/BYODKM */
+
+// 1. Correct overflow-x not hidden on body in Safari Mac
 
 .html
   height 100%
+  overflow-x hidden // 1
 
 .body
   min-width 320px
   min-height 100%
+  overflow-x visible // 1
   line-height 1.25
   word-wrap break-word
   -webkit-font-smoothing antialiased
