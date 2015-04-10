@@ -73,6 +73,7 @@ pre .code {
   font-weight: inherit;
 }
 .hr {
+  clear: both;
   margin: 0;
   overflow: hidden;
   border: 0;
