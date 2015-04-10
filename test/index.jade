@@ -8,178 +8,235 @@ doctype
     title Non-destructive Reset CSS Test
     link(rel="stylesheet" href="#{normalizeCss}")
     link(rel="stylesheet" href="../nondestructive-reset.css")
+    style.
+      body {
+        background-color: gray;
+      }
+      .box {
+        padding: 0 2%;
+        margin: 20px 0;
+        overflow: hidden;
+      }
+      .before,
+      .after {
+        width: 49%;
+        background-color: white;
+        border-radius: 3px;
+      }
+      .before {
+        float: left;
+      }
+      .after {
+        float: right;
+      }
   +body
 
-    h1 h1
-    h2 h2
-    h3 h3
-    h4 h4
-    h5 h5
-    h6 h6
-    +h1 h1.h1
-    +h2 h2.h2
-    +h3 h3.h3
-    +h4 h4.h4
-    +h5 h5.h5
-    +h6 h6.h6
+    .box
+      .before
+        h1 h1
+        h2 h2
+        h3 h3
+        h4 h4
+        h5 h5
+        h6 h6
+      .after
+        +h1 h1.h1
+        +h2 h2.h2
+        +h3 h3.h3
+        +h4 h4.h4
+        +h5 h5.h5
+        +h6 h6.h6
 
     +hr
 
-    p p
-    +p p.p
+    .box
+      .before
+        p p
+      .after
+        +p p.p
 
     +hr
 
-    div
-      cite cite
-    div
-      +cite cite.cite
+    .box
+      .before
+        cite cite
+      .after
+        +cite cite.cite
 
     +hr
 
-    div
-      code code
-    div
-      +code code.code
+    .box
+      .before
+        code code
+      .after
+        +code code.code
 
     +hr
 
-    ol
-      li ol
-      li li
-    +ol
-      +li ol.ol
-      +li li.li
+    .box
+      .before
+        ol
+          li ol
+          li li
+      .after
+        +ol
+          +li ol.ol
+          +li li.li
 
     +hr
 
-    ul
-      li ul
-      li li
-    +ul
-      +li ul.ul
-      +li li.li
+    .box
+      .before
+        ul
+          li ul
+          li li
+      .after
+        +ul
+          +li ul.ul
+          +li li.li
 
     +hr
 
-    dl
-      dt dt
-      dd dd
-
-    +dl
-      +dt dt.dt
-      +dd dd.dd
-
-    +hr
-
-    blockquote blockquote
-    +blockquote blockquote.blockquote
+    .box
+      .before
+        dl
+          dt dt
+          dd dd
+      .after
+        +dl
+          +dt dt.dt
+          +dd dd.dd
 
     +hr
 
-    pre pre
-    pre
-      code code
-    +pre pre.pre
-    +pre
-      +code code.code
+    .box
+      .before
+        blockquote blockquote
+      .after
+        +blockquote blockquote.blockquote
 
     +hr
 
-    table
-      tr
-        th
-          | th
-          br
-          | th
-        td td
-      tr
-        th th
-        td
-          | td
-          br
-          | td
-    +table
-      +tr
-        +th
-          | th.th
-          br
-          | th.th
-        +td td.td
-      +tr
-        +th th.th
-        +td
-          | td.td
-          br
-          | td.td
+    .box
+      .before
+        pre pre
+      .after
+        +pre pre.pre
 
     +hr
 
-    div
-      input(value="input")
-      input(value="input")
-    div
-      +input(value="input.input")
-      +input(value="input.input")
+    .box
+      .before
+        table
+          tr
+            th
+              | th
+              br
+              | th
+            td td
+          tr
+            th th
+            td
+              | td
+              br
+              | td
+      .after
+        +table
+          +tr
+            +th
+              | th.th
+              br
+              | th.th
+            +td td.td
+          +tr
+            +th th.th
+            +td
+              | td.td
+              br
+              | td.td
 
     +hr
 
-    textarea textarea
-    +textarea textarea.textarea
+    .box
+      .before
+        input(value="input")
+        input(value="input")
+      .after
+        +input(value="input.input")
+        +input(value="input.input")
 
     +hr
 
-    div
-      select
-        option select
-        option select
-        option select
-      select
-        option select
-        option select
-        option select
-    div
-      +select
-        option select.select
-        option select.select
-        option select.select
-      +select
-        option select.select
-        option select.select
-        option select.select
+    .box
+      .before
+        textarea textarea
+      .after
+        +textarea textarea.textarea
 
     +hr
 
-    div
-      button button
-      button button
-    div
-      +button button.button
-      +button button.button
+    .box
+      .before
+        select
+          option select
+          option option
+          option option
+        select
+          option select
+          option option
+          option option
+      .after
+        +select
+          option select.select
+          option option
+          option option
+        +select
+          option select.select
+          option option
+          option option
 
     +hr
 
-    div
-      label label
-    div
-      +label label.label
+    .box
+      .before
+        button button
+        button button
+      .after
+        +button button.button
+        +button button.button
 
     +hr
 
-    address address
-    +address address.address
+    .box
+      .before
+        label label
+      .after
+        +label label.label
+
+    +hr
+
+    .box
+      .before
+        address address
+      .after
+        +address address.address
 
     +hr
     
-    fieldset
-      legend fieldset
-
-    +fieldset
-      legend fieldset.fieldset
+    .box
+      .before
+        fieldset
+          legend fieldset
+      .after
+        +fieldset
+          legend fieldset.fieldset
 
     +hr
 
-    iframe(src="http://example.com")
-    +iframe(src="http://example.com")
+    .box
+      .before
+        iframe(src="http://example.com")
+      .after
+        +iframe(src="http://example.com")
 
     script(src="//localhost:35729/livereload.js")
