@@ -12,231 +12,215 @@ doctype
       body {
         background-color: gray;
       }
-      .box {
-        padding: 0 2%;
-        margin: 20px 0;
-        overflow: hidden;
-      }
       .before,
       .after {
-        width: 49%;
+        margin: 20px 0;
+        width: 47%;
         background-color: white;
         border-radius: 3px;
       }
       .before {
         float: left;
+        margin-right: 1%;
+        margin-left: 2%;
       }
       .after {
         float: right;
+        margin-right: 2%;
+        margin-left: 1%;
       }
   +body
 
-    .box
-      .before
-        h1 h1
-        h2 h2
-        h3 h3
-        h4 h4
-        h5 h5
-        h6 h6
-      .after
-        +h1 h1.h1
-        +h2 h2.h2
-        +h3 h3.h3
-        +h4 h4.h4
-        +h5 h5.h5
-        +h6 h6.h6
+    .before
+      h1 h1
+      h2 h2
+      h3 h3
+      h4 h4
+      h5 h5
+      h6 h6
+    .after
+      +h1 h1.h1
+      +h2 h2.h2
+      +h3 h3.h3
+      +h4 h4.h4
+      +h5 h5.h5
+      +h6 h6.h6
 
     +hr
 
-    .box
-      .before
-        p p
-      .after
-        +p p.p
+    .before
+      p p
+    .after
+      +p p.p
 
     +hr
 
-    .box
-      .before
-        cite cite
-      .after
-        +cite cite.cite
+    .before
+      cite cite
+    .after
+      +cite cite.cite
 
     +hr
 
-    .box
-      .before
-        code code
-      .after
-        +code code.code
+    .before
+      code code
+    .after
+      +code code.code
 
     +hr
 
-    .box
-      .before
-        ol
-          li ol
-          li li
-      .after
-        +ol
-          +li ol.ol
-          +li li.li
+    .before
+      ol
+        li ol
+        li li
+    .after
+      +ol
+        +li ol.ol
+        +li li.li
 
     +hr
 
-    .box
-      .before
-        ul
-          li ul
-          li li
-      .after
-        +ul
-          +li ul.ul
-          +li li.li
+    .before
+      ul
+        li ul
+        li li
+    .after
+      +ul
+        +li ul.ul
+        +li li.li
 
     +hr
 
-    .box
-      .before
-        dl
-          dt dt
-          dd dd
-      .after
-        +dl
-          +dt dt.dt
-          +dd dd.dd
+    .before
+      dl
+        dt dt
+        dd dd
+    .after
+      +dl
+        +dt dt.dt
+        +dd dd.dd
 
     +hr
 
-    .box
-      .before
-        blockquote blockquote
-      .after
-        +blockquote blockquote.blockquote
+    .before
+      blockquote blockquote
+    .after
+      +blockquote blockquote.blockquote
 
     +hr
 
-    .box
-      .before
-        pre pre
-      .after
-        +pre pre.pre
+    .before
+      pre pre
+    .after
+      +pre pre.pre
 
     +hr
 
-    .box
-      .before
-        table
-          tr
-            th
-              | th
-              br
-              | th
-            td td
-          tr
-            th th
-            td
-              | td
-              br
-              | td
-      .after
-        +table
-          +tr
-            +th
-              | th.th
-              br
-              | th.th
-            +td td.td
-          +tr
-            +th th.th
-            +td
-              | td.td
-              br
-              | td.td
+    .before
+      table
+        tr
+          th
+            | th
+            br
+            | th
+          td td
+        tr
+          th th
+          td
+            | td
+            br
+            | td
+    .after
+      +table
+        +tr
+          +th
+            | th.th
+            br
+            | th.th
+          +td td.td
+        +tr
+          +th th.th
+          +td
+            | td.td
+            br
+            | td.td
 
     +hr
 
-    .box
-      .before
-        input(value="input")
-        input(value="input")
-      .after
-        +input(value="input.input")
-        +input(value="input.input")
+    .before
+      input(value="input")
+      input(value="input")
+    .after
+      +input(value="input.input")
+      +input(value="input.input")
 
     +hr
 
-    .box
-      .before
-        textarea textarea
-      .after
-        +textarea textarea.textarea
+    .before
+      textarea textarea
+    .after
+      +textarea textarea.textarea
 
     +hr
 
-    .box
-      .before
-        select
-          option select
-          option option
-          option option
-        select
-          option select
-          option option
-          option option
-      .after
-        +select
-          option select.select
-          option option
-          option option
-        +select
-          option select.select
-          option option
-          option option
+    .before
+      select
+        option select
+        option option
+        option option
+      select
+        option select
+        option option
+        option option
+    .after
+      +select
+        option select.select
+        option option
+        option option
+      +select
+        option select.select
+        option option
+        option option
 
     +hr
 
-    .box
-      .before
-        button button
-        button button
-      .after
-        +button button.button
-        +button button.button
+    .before
+      button button
+      button button
+    .after
+      +button button.button
+      +button button.button
 
     +hr
 
-    .box
-      .before
-        label label
-      .after
-        +label label.label
+    .before
+      label label
+    .after
+      +label label.label
 
     +hr
 
-    .box
-      .before
-        address address
-      .after
-        +address address.address
+    .before
+      address address
+    .after
+      +address address.address
 
     +hr
-    
-    .box
-      .before
-        fieldset
-          legend fieldset
-      .after
-        +fieldset
-          legend fieldset.fieldset
+  
+    .before
+      fieldset
+        legend fieldset
+    .after
+      +fieldset
+        legend fieldset.fieldset
 
     +hr
 
-    .box
-      .before
-        iframe(src="http://example.com")
-      .after
-        +iframe(src="http://example.com")
+    .before
+      iframe(src="http://example.com")
+    .after
+      +iframe(src="http://example.com")
+
+    +hr
 
     script(src="//localhost:35729/livereload.js")
