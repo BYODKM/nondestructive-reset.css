@@ -42,12 +42,6 @@
 .cite {
   font-style: normal;
 }
-.code {
-  white-space: nowrap;
-}
-pre .code {
-  white-space: pre;
-}
 .dl {
   margin: 0;
 }
