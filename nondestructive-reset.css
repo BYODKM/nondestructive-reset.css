@@ -1,4 +1,4 @@
-/* nondestructive-reset.css v1.1.4 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.1.5 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
   overflow-x: hidden;
@@ -27,6 +27,7 @@
   border: 1px solid;
   border-radius: 4px;
   color: inherit;
+  vertical-align: middle;
   background: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
@@ -86,6 +87,7 @@
   box-sizing: border-box;
   border: 1px solid;
   font-family: sans-serif;
+  vertical-align: middle;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -120,6 +122,7 @@
   padding: 0;
   border: 1px solid;
   border-radius: 4px;
+  vertical-align: middle;
   cursor: pointer;
   background: none;
   -webkit-appearance: none;
