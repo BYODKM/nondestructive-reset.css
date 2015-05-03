@@ -1,15 +1,16 @@
-/*! nondestructive-reset.css v1.1.5 | MIT License | github.com/BYODKM */
+/*! nondestructive-reset.css v1.2.0 | MIT License | github.com/BYODKM */
 
-// 1. Correct overflow-x not hidden on body in Safari Mac
+// 1. Collect issue of background gradient image height
+// 2. Correct issue of overflow-x not hidden on body in Safari Mac
 
 .html
-  height 100%
-  overflow-x hidden // 1
+  height 100% // 1
+  overflow-x hidden // 2
 
 .body
   min-width 320px
-  min-height 100%
-  overflow-x visible // 1
+  min-height 100% // 1
+  overflow-x visible // 2
   line-height 1.25
   word-wrap break-word
   -webkit-font-smoothing antialiased
@@ -88,7 +89,10 @@
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"])
   -webkit-box-sizing border-box
   box-sizing border-box
+  padding 0
+  width 10em
   border 1px solid
+  border-radius 0
   font-family sans-serif
   vertical-align middle
   -webkit-appearance none
@@ -155,8 +159,10 @@
   display block
   -webkit-box-sizing border-box
   box-sizing border-box
+  padding 0
   width 100%
   border 1px solid
+  border-radius 0
   -webkit-appearance none
   -webkit-font-smoothing antialiased
 

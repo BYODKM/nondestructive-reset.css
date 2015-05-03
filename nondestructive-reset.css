@@ -1,4 +1,4 @@
-/* nondestructive-reset.css v1.1.5 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.2.0 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
   overflow-x: hidden;
@@ -85,7 +85,10 @@
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
+  width: 10em;
   border: 1px solid;
+  border-radius: 0;
   font-family: sans-serif;
   vertical-align: middle;
   -webkit-appearance: none;
@@ -152,8 +155,10 @@
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
   width: 100%;
   border: 1px solid;
+  border-radius: 0;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
