@@ -114,7 +114,7 @@ $ grunt
 
 ## Recommendation
 
-Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should normalize first.
+Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should **normalize first**.
 
 ## License
 
