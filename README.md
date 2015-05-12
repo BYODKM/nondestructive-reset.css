@@ -78,7 +78,7 @@ You can opt-in or out of a per-element basis.
 
 ## Too hassle?
 
-I'd suggest to use the [Jade mixin](helper/nondestructive-reset.jade).
+I'd suggest to use this [Jade mixin](helper/nondestructive-reset.jade).
 
 ```
 mixin body
