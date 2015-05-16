@@ -1,10 +1,9 @@
-/* nondestructive-reset.css v1.3.0 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.3.1 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
   overflow-x: hidden;
 }
 .body {
-  min-width: 320px;
   min-height: 100%;
   overflow-x: visible;
   line-height: 1.25;
@@ -20,8 +19,6 @@
   margin: 0;
 }
 .button {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   border: 1px solid;
   border-radius: 4px;
@@ -30,8 +27,11 @@
   background: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
-  -webkit-user-select: none;
-  -moz-user-select: none;
+}
+.button -webkit-box-sizing border-box {
+  box-sizing: border-box;
+}
+.button -webkit-user-select none -moz-user-select none {
   user-select: none;
 }
 .button:hover,
@@ -42,10 +42,10 @@
 .cite {
   font-style: normal;
 }
-.dl {
+.dd {
   margin: 0;
 }
-.dd {
+.dl {
   margin: 0;
 }
 .fieldset {
@@ -69,21 +69,18 @@
 .hr {
   clear: both;
   margin: 0;
-  overflow: hidden;
   border: 0;
-  border-top: 1px solid #000;
+  border-top: 1px solid;
 }
 .iframe {
-  overflow: hidden;
   border: 0;
+  overflow: hidden;
   vertical-align: top;
 }
 .img {
   vertical-align: bottom;
 }
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   width: 10em;
   border: 1px solid;
@@ -93,13 +90,16 @@
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
+.input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) -webkit-box-sizing border-box {
+  box-sizing: border-box;
+}
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):focus {
   outline: none;
 }
 .label {
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
+}
+.label -webkit-user-select none -moz-user-select none {
   user-select: none;
 }
 .li {
@@ -119,8 +119,6 @@
   word-wrap: normal;
 }
 .select {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   border: 1px solid;
   border-radius: 4px;
@@ -129,6 +127,9 @@
   background: none;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
+}
+.select -webkit-box-sizing border-box {
+  box-sizing: border-box;
 }
 .select:focus {
   outline: none;
@@ -152,14 +153,16 @@
 }
 .textarea {
   display: block;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   width: 100%;
   border: 1px solid;
   border-radius: 0;
+  resize: vertical;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
+}
+.textarea -webkit-box-sizing border-box {
+  box-sizing: border-box;
 }
 .textarea:focus {
   outline: none;
