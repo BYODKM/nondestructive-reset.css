@@ -1,13 +1,3 @@
-mixin html
-
-  html.html&attributes(attributes)
-    block
-
-mixin body
-
-  body.body&attributes(attributes)
-    block
-
 mixin address
 
   address.address&attributes(attributes)
@@ -16,6 +6,11 @@ mixin address
 mixin blockquote
 
   blockquote.blockquote&attributes(attributes)
+    block
+
+mixin body
+
+  body.body&attributes(attributes)
     block
 
 mixin button
@@ -41,6 +36,11 @@ mixin dd
 mixin dt
 
   dt.dt&attributes(attributes)
+    block
+
+mixin em
+
+  em.em&attributes(attributes)
     block
 
 mixin fieldset
@@ -87,6 +87,16 @@ mixin hr
 
   hr.hr&attributes(attributes)
   //- block
+
+mixin html
+
+  html.html&attributes(attributes)
+    block
+
+mixin i
+
+  i.i&attributes(attributes)
+    block
 
 mixin iframe
 
