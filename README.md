@@ -49,18 +49,12 @@ These are totally destructive methods. And the result is terrible.
 ### How about this way?
 
 ```
-.html {
-  height: 100%;
+.ol,
+.ul {
+  margin: 0;
+  padding: 0;
 }
-.body {
-  min-height: 100%;
-  min-width: 320px;
-  line-height: 1.25;
-  word-wrap: break-word;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-}
+
 ```
 
 You can opt-in or out of a per-element basis.
@@ -68,12 +62,12 @@ You can opt-in or out of a per-element basis.
 ### Opt-in
 
 ```
-<body class="body">
+<ul class="ul">
 ```
 ### Opt-out
 
 ```
-<body>
+<ul>
 ```
 
 ## Too hassle?
@@ -81,20 +75,17 @@ You can opt-in or out of a per-element basis.
 I'd suggest to use this [Jade mixin](helper/nondestructive-reset.jade).
 
 ```
-mixin body
-  body.body&attributes(attributes)
+mixin ul
+  ul.ul&attributes(attributes)
     block
 ```
 
 You can call it like this:
 
 ```
-doctype
-+html
-  head
-    title here
-  +body
-    +h1 here
++ul
+  +li
+  +li
 ```
 
 ## Install
