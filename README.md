@@ -1,10 +1,12 @@
 # Non-destructive Reset CSS
 
-Source: [nondestructive-reset.styl](src/nondestructive-reset.styl)
+> _adjective_
+
+> Of, relating to, or being a process that does not result in damage to the material under investigation or testing.
 
 ## What's new?
 
-This is what use to be the reset css looks like:
+This is a **old** reset css looks like:
 
 ```
 html, body, div, span, applet, object, iframe,
@@ -30,7 +32,7 @@ time, mark, audio, video {
 }
 ```
 
-Even worse:
+Or worse:
 
 ```
 * {
@@ -44,7 +46,8 @@ Even worse:
 }
 ```
 
-These are totally destructive methods. And the result is terrible.
+These are totally _destructive_ methods. And the result is terrible.
+We need a better way.
 
 ### How about this way?
 
@@ -56,7 +59,7 @@ These are totally destructive methods. And the result is terrible.
 }
 ```
 
-You can opt-in or out of a per-element basis.
+This is _Non_-destructive. You can opt-in or out of a per-element basis.
 
 ### Opt-in
 
@@ -68,6 +71,8 @@ You can opt-in or out of a per-element basis.
 ```
 <h1>
 ```
+
+[Test](http://byodkm.github.io/nondestructive-reset.css/test/) and [Details](src/nondestructive-reset.styl).
 
 ## Too hassle?
 
@@ -104,7 +109,7 @@ $ grunt
 
 ## Recommendation
 
-Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should **normalize first**.
+Use this reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should **normalize first**.
 
 ## Supported browsers
 
