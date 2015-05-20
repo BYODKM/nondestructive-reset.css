@@ -1,8 +1,8 @@
-# Non-destructive Reset CSS
+# [Non-destructive Reset CSS](http://byodkm.github.io/nondestructive-reset.css/test/)
 
-> _adjective_
+> Non-destructive
 
-> Of, relating to, or being a process that does not result in damage to the material under investigation or testing.
+> _Of, relating to, or being a process that does not result in damage to the material under investigation or testing._
 
 ## What's new?
 
@@ -59,7 +59,7 @@ We need a better way.
 }
 ```
 
-This is _Non_-destructive. You can opt-in or out of a per-element basis.
+This is _Non_-destructive. You can **opt-in** or **out** of a per-element basis.
 
 ### Opt-in
 
