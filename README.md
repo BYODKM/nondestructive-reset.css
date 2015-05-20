@@ -54,7 +54,6 @@ These are totally destructive methods. And the result is terrible.
   font-size: 1em;
   font-weight: inherit;
 }
-
 ```
 
 You can opt-in or out of a per-element basis.
