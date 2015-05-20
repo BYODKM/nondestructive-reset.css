@@ -49,10 +49,10 @@ These are totally destructive methods. And the result is terrible.
 ### How about this way?
 
 ```
-.ol,
-.ul {
+.h1 {
   margin: 0;
-  padding: 0;
+  font-size: 1em;
+  font-weight: inherit;
 }
 
 ```
@@ -62,12 +62,12 @@ You can opt-in or out of a per-element basis.
 ### Opt-in
 
 ```
-<ul class="ul">
+<h1 class="h1">
 ```
 ### Opt-out
 
 ```
-<ul>
+<h1>
 ```
 
 ## Too hassle?
@@ -75,17 +75,17 @@ You can opt-in or out of a per-element basis.
 I'd suggest to use this [Jade mixin](helper/nondestructive-reset.jade).
 
 ```
-mixin ul
-  ul.ul&attributes(attributes)
+mixin h1
+  h1.h1&attributes(attributes)
     block
 ```
 
 You can call it like this:
 
 ```
-+ul
-  +li
-  +li
++body
+  +h1 Title here
+  +p  Easy right?
 ```
 
 ## Install
@@ -106,6 +106,11 @@ $ grunt
 ## Recommendation
 
 Use this nondestructive-reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should **normalize first**.
+
+## Supported browsers
+
+- IE 9+
+- Others
 
 ## License
 
