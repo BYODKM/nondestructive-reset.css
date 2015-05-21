@@ -74,7 +74,7 @@ This is _Non_-destructive. You can **opt-in** or **out** of a per-element basis.
 
 [Test](http://byodkm.github.io/nondestructive-reset.css/test/) and [Details](src/nondestructive-reset.styl).
 
-## Too hassle?
+## Too much hassle?
 
 I'd suggest to use this [Jade mixin](helper/nondestructive-reset.jade).
 
