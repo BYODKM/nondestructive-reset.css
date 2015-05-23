@@ -1,4 +1,4 @@
-# [Non-destructive Reset CSS](http://byodkm.github.io/nondestructive-reset.css/test/)
+# [Non-destructive Reset CSS](src/nondestructive-reset.styl)
 
 > Non-destructive
 
