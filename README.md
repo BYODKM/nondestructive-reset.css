@@ -1,9 +1,5 @@
 # [Non-destructive Reset CSS](src/nondestructive-reset.styl)
 
-> Non-destructive
-
-> _Of, relating to, or being a process that does not result in damage to the material under investigation or testing._
-
 ## What's new?
 
 This is a **old** reset css looks like:
