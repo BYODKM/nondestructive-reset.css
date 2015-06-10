@@ -1,5 +1,7 @@
 # [Non-destructive Reset CSS](src/nondestructive-reset.styl)
 
+See test [results](http://byodkm.github.io/nondestructive-reset.css/test/).
+
 ## What's new?
 
 This is a **old** reset css looks like:
@@ -67,8 +69,6 @@ This is _Non_-destructive. You can **opt-in** or **out** of a per-element basis.
 ```
 <h1>
 ```
-
-[Test](http://byodkm.github.io/nondestructive-reset.css/test/) and [Details](src/nondestructive-reset.styl).
 
 ## Too much hassle?
 
