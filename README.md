@@ -1,6 +1,6 @@
 # [Non-destructive Reset CSS](src/nondestructive-reset.styl)
 
-See test [results](http://byodkm.github.io/nondestructive-reset.css/test/).
+See the test [results](http://byodkm.github.io/nondestructive-reset.css/test/).
 
 ## What's new?
 
