@@ -83,6 +83,7 @@
   vertical-align: top;
 }
 .img {
+  max-width: 100%;
   vertical-align: bottom;
 }
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {

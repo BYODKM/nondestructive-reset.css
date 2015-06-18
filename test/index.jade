@@ -55,6 +55,22 @@ doctype
     +hr
 
     .before
+      figure figure
+    .after
+      +figure figure.figure
+
+    +hr
+
+    .before
+      img(src="http://placehold.it/200x100")
+      | img
+    .after
+      +img(src="http://placehold.it/200x100")
+      | img.img
+
+    +hr
+
+    .before
       em em
     .after
       +em em.em
