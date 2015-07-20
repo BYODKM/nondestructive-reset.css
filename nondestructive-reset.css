@@ -1,13 +1,9 @@
-/* nondestructive-reset.css v1.3.2 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.4.0 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
-  overflow-x: hidden;
 }
 .body {
   min-height: 100%;
-  overflow-x: visible;
-  line-height: 1.25;
-  word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
