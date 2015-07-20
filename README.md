@@ -1,10 +1,12 @@
-# [Non-destructive Reset CSS](src/nondestructive-reset.styl)
+# Non-destructive Reset CSS
 
-See the test [results](http://byodkm.github.io/nondestructive-reset.css/test/).
+
+- [nondestructive-reset.css](nondestructive-reset.css)
+- [Test results](http://byodkm.github.io/nondestructive-reset.css/test/)
 
 ## What's new?
 
-This is a **old** reset css looks like:
+This is a _old_ reset css looks like:
 
 ```
 html, body, div, span, applet, object, iframe,
@@ -47,7 +49,7 @@ Or worse:
 These are totally _destructive_ methods. And the result is terrible.
 We need a better way.
 
-### How about this way?
+## How about this way?
 
 ```
 .h1 {
@@ -57,7 +59,7 @@ We need a better way.
 }
 ```
 
-This is _Non_-destructive. You can **opt-in** or **out** of a per-element basis.
+It's _Non-destructive_. You can **opt-in** or **out** of a per-element basis.
 
 ### Opt-in
 
@@ -70,9 +72,9 @@ This is _Non_-destructive. You can **opt-in** or **out** of a per-element basis.
 <h1>
 ```
 
-## Too much hassle?
+### Too much hassle?
 
-I'd suggest to use this [Jade mixin](helper/nondestructive-reset.jade).
+There's a [Jade mixin](helper/nondestructive-reset.jade) for that.
 
 ```
 mixin h1
@@ -88,11 +90,10 @@ You can call it like this:
   +p  Easy right?
 ```
 
-## Install
+## Installation
 
-```
-$ bower install --save nondestructive-reset.css
-```
+- [Download](https://github.com/BYODKM/nondestructive-reset.css/releases)
+- Bower: `$ bower install nondestructive-reset.css`
 
 ## Test your own
 
@@ -105,9 +106,9 @@ $ grunt
 
 ## Recommendation
 
-Use this reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should **normalize first**.
+Use this reset.css with [normalize.css](https://github.com/necolas/normalize.css) and should normalize _first_.
 
-## Supported browsers
+## Supported Browsers
 
 - IE 9+
 - Others
