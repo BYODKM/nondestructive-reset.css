@@ -1,4 +1,4 @@
-/* nondestructive-reset.css v1.4.0 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.4.1 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
 }
@@ -96,6 +96,9 @@
 }
 .input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):focus {
   outline: none;
+}
+.input:not([type="checkbox"]):not([type="radio"]):not([type="range"])::-moz-placeholder {
+  opacity: 1;
 }
 .label {
   cursor: pointer;
