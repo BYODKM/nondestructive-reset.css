@@ -1,4 +1,4 @@
-/* nondestructive-reset.css v1.5.0 | MIT License | github.com/BYODKM */
+/* nondestructive-reset.css v1.5.1 | MIT License | github.com/BYODKM */
 .html {
   height: 100%;
 }
@@ -84,7 +84,7 @@
   max-width: 100%;
   vertical-align: bottom;
 }
-.input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
+.input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
@@ -96,10 +96,10 @@
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
 }
-.input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):focus {
+.input:focus {
   outline: none;
 }
-.input:not([type="checkbox"]):not([type="radio"]):not([type="range"])::-moz-placeholder {
+.input::-moz-placeholder {
   opacity: 1;
 }
 .label {
